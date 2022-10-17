@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import {Routes, Route} from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
-
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Hero from './components/hero/Hero';
+import Nav from './components/nav/Nav';
 function App() {
+  const[toggle, setToggle] = useState(true)
+  
+  function toggleMenu(){
+    setToggle(prev=>!prev);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav
+      toggle={toggle}
+      toggleMenu={toggleMenu}
+      />
+     {/* <Hero/>
+     <About/>
+     <Projects/> */}
     </div>
   );
 }
