@@ -4,7 +4,7 @@ import right_down from '../../img/downArrow.svg';
 import Btn_sec from '../btn/Btn-sec';
 export default function About() {
   return (
-    <section className='about bg-primary h-[100vh]'>
+    <section className='about bg-primary min-h-[100vh]'>
     <div className='bucket pt-[120px] container flex flex-col items-center gap-[64px]' >
       <div className="desc text-left">
         <h2 className=" text-[white] text-[30px]">About <span className='text-secondary font-bold' >me!</span></h2>
