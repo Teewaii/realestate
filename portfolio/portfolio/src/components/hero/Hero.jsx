@@ -17,7 +17,7 @@
                   <div className="desc text-left md:flex-[1.7]">
                     <h2 className='mb-[5px] font-medium text-[18px] 
                     md:text-[25px] md:mt-[100px]  xl:text-[30px]
-                    '>Hi my name is</h2>
+                    '>Hi, my name is</h2>
                     <h1 className='text-lightprim text-[1.3rem] mb-[12px] 
                        
                        md:text-[2.5rem] md:mb-[26px]  xl:text-[3.5rem]
