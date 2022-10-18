@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Socials() {
     return (
-        <div className='fixed group w-[49px] right-0 bottom-[10%] bg-primary
+        <div className='fixed group w-[49px] right-0 bottom-[5%] bg-primary
         h-[150px] rounded-tl-[10px] rounded-bl-[10px] hover:bg-secondary z-[50]
        scale-[0.8] md:scale-[1] md:top-[40%]
         '>
