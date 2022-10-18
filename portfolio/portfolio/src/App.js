@@ -13,13 +13,17 @@ function App() {
   }
   return (
     <div className="App">
-      <Nav
+      {/* <Nav
       toggle={toggle}
       toggleMenu={toggleMenu}
-      />
-     {/* <Hero/>
-     <About/>
+      /> */}
+      <Hero
+      toggle={toggle}
+      toggleMenu={toggleMenu}/>
+     {/*<About/>
      <Projects/> */}
+     {!toggle &&
+     <div className="overlay bg-primary opacity-[0.2] blur-xl absolute top-0 left-0 right-0 bottom-0"></div>}
     </div>
   );
 }

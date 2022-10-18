@@ -27,7 +27,12 @@ module.exports = {
       'secondary': '#DBF66F',
       'lightprim': '#A4CADA',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-right-lg': "url('../src/img/bkg.png')",
+        'hero-right-mob': "url('../src/img/bkg_mob.png')",
+      }
+    },
   },
   plugins: [],
 }
