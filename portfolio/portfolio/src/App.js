@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
+import Tools from './components/tools/Tools';
 function App() {
   const[toggle, setToggle] = useState(true)
   
@@ -20,8 +21,9 @@ function App() {
       <Hero
       toggle={toggle}
       toggleMenu={toggleMenu}/>
-     {/*<About/>
-     <Projects/> */}
+      {/* <Tools/> */}
+     <About/>
+     {/*<Projects/> */}
      {!toggle &&
      <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}
     </div>

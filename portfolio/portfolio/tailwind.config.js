@@ -31,6 +31,7 @@ module.exports = {
       backgroundImage: {
         'hero-right-lg': "url('../src/img/bkg.png')",
         'hero-right-mob': "url('../src/img/bkg_mob.png')",
+        'hds': "url('../src/img/headshot.png')",
       }
     },
   },

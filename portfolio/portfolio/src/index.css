@@ -32,7 +32,7 @@ code {
   } */
 
   h1 {
-    @apply text-primary font-[500] text-[2rem] leading-[3.5rem]
+    @apply text-primary font-[500] text-[2rem] 
   }
 
   .header {
@@ -40,11 +40,11 @@ code {
   }
 
   h2 {
-    @apply text-primary font-[500] text-[1.1rem] leading-[1.4rem] 
+    @apply text-primary  text-[1.1rem] leading-[1.4rem] 
   }
 
   .body {
-    @apply text-[1.2rem] leading-[1.8rem] text-primary 
+    @apply text-[1.2rem] leading-[1.5rem] text-primary 
   } 
 
 
