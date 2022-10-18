@@ -31,21 +31,21 @@ code {
     @apply text-primary font-[700] text-[1.05rem]
   } */
 
-  /* h1 {
-    @apply text-primary font-[500] text-[2.5rem] leading-[3.5rem]
-  } */
+  h1 {
+    @apply text-primary font-[500] text-[2rem] leading-[3.5rem]
+  }
 
-  /* .header {
-    @apply text-primary font-[700] text-[2rem] leading-[2.5rem]
-  } */
+  .header {
+    @apply text-primary font-[700] text-[2.2rem] leading-[2.5rem]
+  }
 
   h2 {
-    @apply text-primary font-[700] text-[1.1rem] leading-[1.4rem]
+    @apply text-primary font-[500] text-[1.1rem] leading-[1.4rem] 
   }
-/* 
+
   .body {
-    @apply text-[1.2rem] leading-[2rem] text-primary
-  } */
+    @apply text-[1.2rem] leading-[1.8rem] text-primary 
+  } 
 
 
 }
