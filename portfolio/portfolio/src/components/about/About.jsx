@@ -4,14 +4,18 @@ import right_down from '../../img/downArrow.svg';
 import Btn_sec from '../btn/Btn-sec';
 export default function About() {
   return (
-    <section className='about bg-primary min-h-[100vh]  
-    md:pb-[40px] '>
+    <section className='about bg-primary  dark:bg-[white] min-h-[100vh]  
+    md:pb-[40px] 
+    
+    
+    
+    '>
       <div className='bucket pt-[120px] container flex flex-col items-center gap-[64px]
     md:flex-row md:items-center 
     ' >
         <div className="desc text-left flex-[1]">
-          <h2 className=" text-[white] text-[30px]">About <span className='text-secondary font-bold' >me!</span></h2>
-          <p className='text-[white]  mt-[20px] w-[95%] leading-[30px] relative font-[300]
+          <h2 className=" text-[white] text-[30px]  dark:text-primary">About <span className='text-secondary font-bold' >me!</span></h2>
+          <p className='text-[white]  dark:text-primary  mt-[20px] w-[95%] leading-[30px] relative font-[300]
       border-b-[1px] border-lightprim pb-[30px] md:text-[15px] 2xl:text-[19px] 2xl:leading-[38px]
         
         '>Hi, I’m Taiye and I love building software products & services that promotes business and economic growths with great user experience and accessibility. <br /><br />
@@ -22,9 +26,9 @@ export default function About() {
 
             Presently, I spend most of my time building more complex and scalable projects using react and vanila Js.</p>
           <div className="toosl">
-            <h1 className='tools-used text-secondary text-[18px] mt-[30px] '>Few of the tools I’ve been working with recently!</h1>
+            <h1 className='tools-used text-secondary  dark:text-primary text-[18px] mt-[30px] '>Few of the tools I’ve been working with recently!</h1>
 
-            <ul className='tool-list text-[white] flex flex-wrap  gap-[20px] mt-[13px]'>
+            <ul className='tool-list text-[white]  dark:text-primary flex flex-wrap  gap-[20px] mt-[13px]'>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />React</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Vanila Js</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Html</li>
@@ -40,12 +44,12 @@ export default function About() {
         </div>
         <div className="hero md:flex md:flex-[1] 
         md:bg-hdsabout md:bg-contain md:bg-opacity-[0.5] md:items-center md:justify-center
-         bg-center h-[100vh] bg-no-repeat  md:h-[90vh]">
+         bg-center h-[100vh] bg-no-repeat  md:h-[90vh] ">
           <div className='next flex flex-col items-center'>
             <div className="circle rounded-full w-[50px] h-[50px] border-[2px] animate-bounce border-secondary flex items-center justify-center">
               <span><img src={right_down} alt="waht's next" /></span>
             </div>
-            <h1 className='text-[white] mb-[20px]'>What's next!</h1>
+            <h1 className='text-[white]  dark:text-primary mb-[20px]'>What's next!</h1>
             <Btn_sec />
           </div>
         </div>

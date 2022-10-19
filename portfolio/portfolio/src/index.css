@@ -53,6 +53,22 @@ code {
 
 
 }
+/* 
+.name{
+  overflow-x: hidden;
+  position: absolute;
+ 
+  left: -450px;
+  right: 0;
+  animation: typeText var(--timing) steps(14) 1s forwards
+}
+
+@keyframes typeText {
+  to {
+   left: 0;
+  } 
+ } */
+
 
 .name::before,
 .name::after{
@@ -65,7 +81,7 @@ code {
 }
 
 .name::before{
-  background-color: white;
+  background-color: inherit;
   animation: typeText var(--timing) steps(14) 1s forwards
 }
 
@@ -95,7 +111,7 @@ code {
   to {
    background: transparent;
   } 
- }
+ } 
  
 @tailwind base;
 @tailwind components;

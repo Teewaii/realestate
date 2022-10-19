@@ -26,6 +26,7 @@ module.exports = {
       'primary': '#146284',
       'secondary': '#DBF66F',
       'lightprim': '#A4CADA',
+      'dark': '#02212e',
     },
     extend: {
       backgroundImage: {
@@ -37,4 +38,5 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode:'class'
 }

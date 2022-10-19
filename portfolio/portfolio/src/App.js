@@ -7,21 +7,36 @@ import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
 import Tools from './components/tools/Tools';
 import Socials from './components/socials/Socials';
+import Mode from './components/btn/Mode_mob';
+
+
 function App() {
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(true);
+  const [dark_mode, setDark_mode] = useState(false)
 
   function toggleMenu() {
     setToggle(prev => !prev);
   }
+
+  function DarkMode() {
+    setDark_mode(prev => !prev);
+  }
   return (
-    <div className="App">
+    <div className={dark_mode?"App dark":"App"}>
       <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
+        dark_mode={dark_mode}
+        DarkMode={DarkMode}
+
       />
       <Socials />
       <Tools/>
-      <Hero
+      <Mode
+            dark_mode={dark_mode}
+            DarkMode={DarkMode}/>
+
+         <Hero
         toggle={toggle}
         toggleMenu={toggleMenu} />
       {/* <Tools/> */}

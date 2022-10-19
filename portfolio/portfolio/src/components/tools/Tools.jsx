@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Tools() {
   return (
-    <div className='tools fixed left-[1%] bottom-[5%] 
+    <div className='tools hidden fixed md:block left-[1%] bottom-[5%] 
     md:left-[1%] md:bottom-[10%]'>
        
       <div className="bucket  flex w-fit items-center justify-center   ">
