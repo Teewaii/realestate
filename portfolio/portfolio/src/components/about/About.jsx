@@ -11,8 +11,8 @@ export default function About() {
     ' >
         <div className="desc text-left flex-[1]">
           <h2 className=" text-[white] text-[30px]">About <span className='text-secondary font-bold' >me!</span></h2>
-          <p className='text-[white]  mt-[20px] w-[95%] leading-[30px] relative 
-      border-b-[1px] border-lightprim pb-[30px] md:text-[19px]
+          <p className='text-[white]  mt-[20px] w-[95%] leading-[30px] relative font-[300]
+      border-b-[1px] border-lightprim pb-[30px] md:text-[15px] 2xl:text-[19px] 2xl:leading-[38px]
         
         '>Hi, I’m Taiye and I love building software products & services that promotes business and economic growths with great user experience and accessibility. <br /><br />
 
@@ -31,6 +31,8 @@ export default function About() {
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Vanila CSS</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />TailwindCSS</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />SCSS / SASS</li>
+              <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Github</li>
+              <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />WordPress</li>
             </ul>
           </div>
         </div>

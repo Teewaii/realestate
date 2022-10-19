@@ -20,6 +20,7 @@ function App() {
         toggleMenu={toggleMenu}
       />
       <Socials />
+      <Tools/>
       <Hero
         toggle={toggle}
         toggleMenu={toggleMenu} />

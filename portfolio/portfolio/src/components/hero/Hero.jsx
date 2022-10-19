@@ -9,24 +9,25 @@ export default function Hello() {
   return (
 
     <section className='hero relative bg-hero-right-mob  bg-contain bg-right-top bg-no-repeat overflow-hidden
-            md:bg-hero-right-lg md:h-[80vh] 
+            md:bg-hero-right-lg md:h-[90vh]   2xl:h-[85vh]  
             '>
       <div className='bucket container pt-[45px] text-[17px]
-                md:pt-[10px] 3xl:pt-[145px] md:flex md:h-[100vh] md:items-start justify-center
+                md:pt-[10px] 2xl:pt-[145px] md:flex md:h-[100vh] md:items-start justify-center
                 '>
         <div className="desc text-left md:flex-[1.7]">
           <h2 className='mb-[5px] font-medium text-[18px] 
                     md:text-[20px] md:mt-[50px]  3xl:mt-[100px]  3xl:text-[30px]
                     '>Hi, my name is</h2>
-          <h1 className='text-lightprim text-[1.3rem] mb-[12px] 
-                       
-                       md:text-[2.5rem] md:mb-[26px]  xl:text-[3.5rem]
+          <h1 className='name text-lightprim text-[1.3rem] mb-[12px] relative  inline-block pr-[5px]                   
+                       md:text-[2.5rem] md:mb-[18px] 2xl:mb-[26px]  xl:text-[3.5rem]                   
+
                        '>Ajimati Taiye</h1>
           <h1 className='header max-w-[350px] relative after:absolute after:bg-secondary after:w-[90%] after:h-[9px] after:left-0 after:bottom-[2px] after:z-[-20] mb-[20px]
-                    md:text-[50px]   3xl:text-[60px] md:leading-[3.5rem] 3xl:leading-[5rem] lg:after:h-[12px] md:max-w-[530px]  3xl:max-w-[650px] md:after:bottom-[7px] 3xl:after:bottom-[11px] 
+                    md:text-[40px]   2xl:text-[60px] md:leading-[3.5rem] 2xl:leading-[5rem] lg:after:h-[12px] md:max-w-[430px]  2xl:max-w-[650px] md:after:bottom-[7px] 2xl:after:bottom-[11px] 
+                    
                     ' >I build web based software solutions!</h1>
-          <p className="body text-[1rem] md:text-[1.2rem] w-[90%] mb-[28px]
-                    md:w-[70%]  3xl:w-[50%] md:mb-[50px] md:leading-[2rem]
+          <p className="body text-[1rem] md:text-[1rem] w-[90%] mb-[28px] 
+                    md:w-[70%]  2xl:text-[1.3rem]  2xl:w-[65%] md:mb-[50px] 2xl:mb-[90px] md:leading-[1.5rem] 2xl:leading-[2rem]
                     ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
           <Btn />
         </div>

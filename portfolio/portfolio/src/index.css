@@ -1,3 +1,7 @@
+:root{
+  --timing:4s;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont,'Ubuntu', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -50,8 +54,47 @@ code {
 
 }
 
+.name::before,
+.name::after{
+  content: '';
+  position: absolute;
+  top:10%;
+  left: 0;
+  bottom:10%;
+  right: 0;
+}
 
+.name::before{
+  background-color: inherit;
+  animation: typeText var(--timing) steps(14) 1s forwards
+}
 
+@keyframes typeText {
+ to {
+  left: 100%;
+ } 
+}
+
+.name::after{
+  background-color:#A4CADA;
+  width: 0.12em;
+  opacity: 0.7;
+  animation: typeText var(--timing) steps(14) 1s forwards,
+   blink 750ms steps(14) infinite
+}
+
+@keyframes typeText {
+  to {
+   left: 100%;
+  } 
+ }
+ 
+@keyframes blink {
+  to {
+   background: transparent;
+  } 
+ }
+ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
