@@ -31,6 +31,8 @@ export default function About() {
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Vanila CSS</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />TailwindCSS</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />SCSS / SASS</li>
+              <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Figma</li>
+              <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Adobe Xd</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />Github</li>
               <li className='flex gap-[10px]'><img src={right_arrow} alt='icon' />WordPress</li>
             </ul>

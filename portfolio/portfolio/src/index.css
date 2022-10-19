@@ -65,9 +65,10 @@ code {
 }
 
 .name::before{
-  background-color: inherit;
+  background-color: white;
   animation: typeText var(--timing) steps(14) 1s forwards
 }
+
 
 @keyframes typeText {
  to {
@@ -82,6 +83,7 @@ code {
   animation: typeText var(--timing) steps(14) 1s forwards,
    blink 750ms steps(14) infinite
 }
+
 
 @keyframes typeText {
   to {

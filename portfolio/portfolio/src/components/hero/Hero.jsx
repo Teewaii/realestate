@@ -18,7 +18,7 @@ export default function Hello() {
           <h2 className='mb-[5px] font-medium text-[18px] 
                     md:text-[20px] md:mt-[50px]  3xl:mt-[100px]  3xl:text-[30px]
                     '>Hi, my name is</h2>
-          <h1 className='name text-lightprim text-[1.3rem] mb-[12px] relative  inline-block pr-[5px]                   
+          <h1 className='name text-lightprim text-[1.3rem] mb-[12px] relative  inline-block pr-[3px]                   
                        md:text-[2.5rem] md:mb-[18px] 2xl:mb-[26px]  xl:text-[3.5rem]                   
 
                        '>Ajimati Taiye</h1>
