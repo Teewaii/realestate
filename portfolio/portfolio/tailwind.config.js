@@ -22,6 +22,10 @@ module.exports = {
 
       center: true,
     },
+    // fontFamily:{
+    //   'Raleway':['Raleway','poppins']
+    // },
+
     colors: {
       'primary': '#146284',
       'secondary': '#DBF66F',
