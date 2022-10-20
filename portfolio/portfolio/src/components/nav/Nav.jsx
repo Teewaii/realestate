@@ -11,7 +11,7 @@ export default function Nav({ toggle, toggleMenu,dark_mode,DarkMode }) {
   return (
     <nav className=' absolute left-0 right-0  top-0  '>
        
-      <div className='navContainer container flex items-center border justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
+      <div className='navContainer container flex items-center  justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
         <div className="logo cursor-pointer relative z-[90] ">
           <img className='w-[40px] lg:w-[50px]' src={logo} alt="" />
          
