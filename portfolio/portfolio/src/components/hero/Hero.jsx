@@ -8,7 +8,7 @@ import arrowDown from '../../img/directArrow.svg';
 export default function Hello() {
   return (
 
-    <section className='hero  relative bg-hero-right-mob  bg-contain bg-right-top bg-no-repeat overflow-hidden
+    <section className='hero  relative bg-hero-right-mob pt-[120px] bg-contain bg-right-top bg-no-repeat overflow-hidden
             md:bg-hero-right-lg md:h-[90vh]    dark:bg-dark 
             '>
       <div className='bucket container pt-[45px] text-[17px]

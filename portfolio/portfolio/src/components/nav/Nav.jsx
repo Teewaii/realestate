@@ -4,14 +4,18 @@ import hamburger from '../../img/hamburger.svg';
 import close from '../../img/close.svg';
 import Btn from '../btn/Btn';
 import Mode from '../../components/btn/Mode';
+import Mode_mob from '../btn/Mode_mob';
 
 export default function Nav({ toggle, toggleMenu,dark_mode,DarkMode }) {
 
   return (
-    <nav className=' absolute left-0 right-0 top-[15px]  '>
+    <nav className=' absolute left-0 right-0  top-0  '>
        
       <div className='navContainer container flex items-center justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
-        <div className="logo cursor-pointer relative z-[90]"><img className='w-[40px] lg:w-[50px]' src={logo} alt="" /></div>
+        <div className="logo cursor-pointer relative z-[90] ">
+          <img className='w-[40px] lg:w-[50px]' src={logo} alt="" />
+         
+          </div>
         <div className="links z-40 ">
           <ul className={toggle ? 'hidden bg-[white] md:bg-opacity-0 flex-col items-start  gap-[20px] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0 ' : '  flex flex-col items-start  bg-[white] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0'}>
 
@@ -34,29 +38,19 @@ export default function Nav({ toggle, toggleMenu,dark_mode,DarkMode }) {
           </ul>
 
         </div>
-        <div className="toggles md:hidden relative  z-[290]" onClick={toggleMenu}  >
-{toggle ?
+        <div className="icon space-x-8 flex items-center z-[90] ">
+        <Mode_mob
+        dark_mode={dark_mode}
+            DarkMode={DarkMode}/> 
+        <div className="toggles md:hidden relative z-[290]" onClick={toggleMenu}  >
+         {toggle ?
             <img className='md:hidden w-[28px]   cursor-pointer' src={hamburger} alt="hamburger" /> :
             <img className='md:hidden w-[25px]   cursor-pointer' src={close} alt="close-menu" />} 
-      
-      
-      
-        {/* {toggle ?
-          <span className='md:hidden w-[28px]   cursor-pointer' ><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="20" height="2" rx="1" fill="#146284"/>
-<rect y="6" width="20" height="2" rx="1" fill="#146284"/>
-<rect y="12" width="20" height="2" rx="1" fill="#146284"/>
-</svg>
-</span>:
-          <span className='md:hidden w-[25px]   cursor-pointer'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect  className='fill-secondary' x="1.41418" width="20" height="2" rx="1" transform="rotate(45 1.41418 0)" fill="#146284"/>
-<rect className='fill-secondary' x="0.000366211" y="14.1422" width="20" height="2" rx="1" transform="rotate(-45 0.000366211 14.1422)" fill="#146284"/>
-</svg>
-</span>} */}
-         
+  
+        </div>
         </div>
       </div>
-
+      
     </nav>
 
   )

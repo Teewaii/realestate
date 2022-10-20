@@ -52,12 +52,11 @@ code {
 
   .body {
     @apply text-[1.2rem] leading-[1.5rem] text-primary 
+    
   } 
 
 
 }
-
-
 
 
 

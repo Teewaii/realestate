@@ -27,6 +27,8 @@ function App() {
       <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
+        dark_mode={dark_mode}
+            DarkMode={DarkMode}
         />
          <Hero
         toggle={toggle}
@@ -36,9 +38,7 @@ function App() {
       <Contact/>
       <Socials />
       <Tools/>
-      <Mode
-            dark_mode={dark_mode}
-            DarkMode={DarkMode}/>
+      
       {/*<Projects/> */}
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}

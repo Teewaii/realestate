@@ -4,7 +4,7 @@ import { SunIcon } from '@heroicons/react/24/solid'
 
 export default function Mode_mob({ dark_mode, DarkMode }) {
   return (
-    <div className='mode cursor-pointer tool  group absolute  top-[6%] left-[70%] S
+    <div className='mode cursor-pointer tool  group 
      md:relative md:hidden
       ' onClick={DarkMode}>
       <small className=' hidden absolute mt-[-20px] -ml-[20px] w-[100px] text-[13px]  group-hover:block  ease-in-out duration-300  font-bold text-lightprim'>{!dark_mode ? 'Night mode' : 'Day mode'}</small>
