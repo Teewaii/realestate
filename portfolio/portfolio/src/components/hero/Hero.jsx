@@ -9,10 +9,10 @@ export default function Hello() {
   return (
 
     <section className='hero  relative bg-hero-right-mob  bg-contain bg-right-top bg-no-repeat overflow-hidden
-            md:bg-hero-right-lg md:h-[90vh]   2xl:h-[85vh] dark:bg-dark 
+            md:bg-hero-right-lg md:h-[90vh]    dark:bg-dark 
             '>
       <div className='bucket container pt-[45px] text-[17px]
-                lg:pt-[10px]  3xl:pt-[145px] md:flex md:h-[100vh] md:items-start justify-center
+                lg:pt-[10px]  2xl:pt-[220px] md:flex md:h-[100vh] md:items-start justify-center
                 '>
         <div className="desc text-left md:flex-[1.7]  overflow-x-hidden">
           <h2 className='mb-[5px] font-medium text-[18px] dark:text-secondary

@@ -36,11 +36,14 @@ module.exports = {
       backgroundImage: {
         'hero-right-lg': "url('../src/img/bkg.png')",
         'hero-right-mob': "url('../src/img/bkg_mob.png')",
+        'hero-contact': "url('../src/img/cont_bg.png')",
         'hds': "url('../src/img/headshot.png')",
         'hdsabout': "url('../src/img/about_bkg.png')",
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
   darkMode:'class'
 }
