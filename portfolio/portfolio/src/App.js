@@ -9,6 +9,7 @@ import Tools from './components/tools/Tools';
 import Socials from './components/socials/Socials';
 import Mode from './components/btn/Mode_mob';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       {/* <Tools/> */}
       <About />
       <Contact/>
+      <Footer/>
       <Socials />
       <Tools/>
       

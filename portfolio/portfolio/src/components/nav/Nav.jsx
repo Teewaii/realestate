@@ -11,7 +11,7 @@ export default function Nav({ toggle, toggleMenu,dark_mode,DarkMode }) {
   return (
     <nav className=' absolute left-0 right-0  top-0  '>
        
-      <div className='navContainer container flex items-center justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
+      <div className='navContainer container flex items-center border justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
         <div className="logo cursor-pointer relative z-[90] ">
           <img className='w-[40px] lg:w-[50px]' src={logo} alt="" />
          
@@ -30,11 +30,9 @@ export default function Nav({ toggle, toggleMenu,dark_mode,DarkMode }) {
 
             <div className="hello scale-[0.8] ml-[20px] mt-[20px] md:hidden">
               {/* <button className='btn-small  hover:bg-secondary hover:text-primary duration-300 ease-in-out' >Say hello!</button> */}
-              <Btn />
+            
             </div>
-            <Mode
-            dark_mode={dark_mode}
-            DarkMode={DarkMode}/>
+          
           </ul>
 
         </div>

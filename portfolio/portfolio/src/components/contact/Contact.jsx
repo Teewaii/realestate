@@ -3,17 +3,18 @@ import React from 'react'
 export default function Contact() {
   return (
     <section className='hero  relative bg-hero-right-mob  bg-contain bg-right-top bg-no-repeat overflow-hidden
-            md:bg-hero-contact md:h-[90vh] md:bg-left-top   dark:bg-dark 
+            md:bg-hero-contact md:h-[70vh] md:bg-left-top   dark:bg-dark 
             '>
-              <div className="bucket container flex flex-col items-center justify-between border h-[100%]
+              <div className="bucket container flex flex-col items-center justify-between  h-[100%]
               md:flex-row
               ">
               <div className="desc  text-left pt-[50px] ">
-                <h1 className='text-[38px] mb-[10px] md:text-[48px] md:mb-[24px]' >
+                <h1 className='text-[38px] mb-[10px] 
+                md:text-5xl md:mb-[24px]' >
                   Say <span className='text-secondary font-bold'>hello!</span>
                 </h1>
                 <p className='border-b-[1px] border-lightprim pb-[28px]  text-primary text-md
-                md:w-[296px] md:pb-[46px] 
+                md:max-w-[500px] md:pb-[46px] md:text-2xl 
                 '>Get in touch and discover how I can contribute to the growth of  your business and team.</p>
               <div className="shoot mt-[12px] mb-[20px]">
                 <h2 className="font-bold text-md">Or shoot me an email at:</h2>
