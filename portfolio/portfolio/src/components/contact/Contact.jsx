@@ -3,7 +3,8 @@ import React from 'react'
 export default function Contact() {
   return (
     <section className='hero  relative bg-hero-right-mob  bg-contain bg-right-top bg-no-repeat overflow-hidden
-            md:bg-hero-contact md:h-[70vh] md:bg-left-top   dark:bg-dark 
+            md:bg-hero-contact md:h-[70vh] md:bg-left-top   dark:bg-dark mb-[85px]
+            md:mb-0
             '>
               <div className="bucket container flex flex-col items-center justify-between  h-[100%]
               md:flex-row
