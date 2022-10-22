@@ -4,14 +4,14 @@ import Nav from '../nav/Nav';
 
 export default function Footer() {
   return (
-    <section className='h-[20vh] bg-primary relative
-   
+    <section className='h-[25vh] bg-primary relative 
+  md:h-[20vh]
     '>
       <div className="footer-wrapper flex flex-col justify-between items-center container
        md:pt-[40px] md:flex-row 
       ">
         <div className="links  text-center">
-          <ul className='  flex  pt-[50px] pb-[44px] gap-[40px] md:flex md:gap-[30px] md:flex-row md:relative md:p-0
+          <ul className='  flex flex-wrap   pt-[50px] pb-[44px] gap-[30px] md:flex md:gap-[30px] md:flex-row md:relative md:p-0
           text-[white] md:items-start'>
 
             <li><a href="#">About</a></li>
@@ -29,7 +29,7 @@ export default function Footer() {
           <p className=''>&#169; 2022, Ajimati Taiye</p>
 
         </div>
-       
+
       </div>
     </section >
   )

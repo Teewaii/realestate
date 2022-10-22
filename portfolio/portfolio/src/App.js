@@ -12,6 +12,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import To_Top from './components/btn/To_Top';
 
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -41,7 +42,8 @@ function App() {
       <Footer />
       <Socials />
       <Tools />
-      <To_Top />
+      <ScrollToTop smooth component={<To_Top />} />
+
       {/*<Projects/> */}
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}

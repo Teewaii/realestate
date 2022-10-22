@@ -39,11 +39,14 @@ module.exports = {
         'hero-contact': "url('../src/img/cont_bg.png')",
         'hds': "url('../src/img/headshot.png')",
         'hdsabout': "url('../src/img/about_bkg.png')",
-      }
+      },
+      fontFamily: {
+        'Roboto': ['Roboto'],
+      },
     },
   },
   plugins: [
     require('@tailwindcss/forms')
   ],
-  darkMode:'class'
+  darkMode: 'class'
 }
