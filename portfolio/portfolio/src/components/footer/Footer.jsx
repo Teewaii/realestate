@@ -4,7 +4,7 @@ import Nav from '../nav/Nav';
 
 export default function Footer() {
   return (
-    <section className='h-[25vh] bg-primary relative 
+    <section className='h-[35vh] bg-primary relative 
   md:h-[20vh]
     '>
       <div className="footer-wrapper flex flex-col justify-between items-center container
