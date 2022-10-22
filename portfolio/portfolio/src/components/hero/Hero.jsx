@@ -9,7 +9,7 @@ export default function Hello() {
   return (
 
     <section className='hero  relative bg-hero-right-mob pt-[120px] bg-contain bg-right-top bg-no-repeat overflow-hidden
-            md:bg-hero-right-lg md:h-[90vh]  
+            md:bg-hero-right-lg md:h-[70vh] lg:h-[90vh] 
                         dark:bg-dark pb-[152px]
             '>
       <div className='bucket container pt-[45px] text-[17px]
