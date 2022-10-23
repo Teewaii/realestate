@@ -26,7 +26,7 @@ export default function About() {
     
     '>
       <div className='bucket pt-[120px] container flex flex-col items-center gap-[64px]
-    md:flex-row md:items-center 
+    lg:flex-row md:items-center 
     ' >
         <div className="desc text-left flex-[1]">
           <h2 className=" text-[white] text-[30px] ">About <span className='text-secondary font-bold' >me!</span></h2>
@@ -58,9 +58,10 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className="hero md:flex md:flex-[1]
+        <div className="hero lg:flex md:flex-[1]
         md:bg-hdsabout md:bg-contain md:bg-opacity-[0.5] md:items-center md:justify-center
-         bg-center  bg-no-repeat  md:h-[90vh] ">
+         bg-center  bg-no-repeat  lg:h-[90vh] md:w-[100%]  ">
+
           <div className='next flex flex-col items-center pb-[150px]'>
           <h1 className='text-[white] text-[25px] md:text-[35px] mb-[20px]'>What's next!</h1>
             <div className="circle rounded-full w-[50px] h-[50px] border-[2px] animate-bounce border-secondary flex items-center justify-center">

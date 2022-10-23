@@ -6,18 +6,18 @@ export default function Contact() {
             md:bg-hero-contact  md:bg-left-top  md:min-h-[90vh]  dark:bg-dark pb-[100px] 
             md:mb-0  md:py-[80px]
             '>
-      <div className="bucket container flex flex-col items-center justify-between 
-              md:flex-row md:items-start 
+      <div className="bucket container flex flex-col items-start 
+             
               ">
         <div className="desc  text-left pt-[50px] 
         
-        lg:flex-[0.95]">
+       ">
           <h1 className='text-[38px] mb-[10px] 
            dark:text-lightprim     md:text-5xl md:mb-[24px]' >
             Say <span className='text-secondary font-bold'>hello!</span>
           </h1>
           <p className='border-b-[1px] border-lightprim pb-[28px]  text-primary text-md
-             dark:text-[white]   md:max-w-[500px] md:pb-[46px] md:text-2xl 
+             dark:text-[white]   md:pb-[46px] md:text-2xl 
                 '>Get in touch and discover how I can contribute to the growth of  your business and team.</p>
           <div className="shoot mt-[12px] mb-[20px]">
             <h2 className="font-medium text-md dark:text-secondary ">Or shoot me an email at:</h2>
@@ -26,9 +26,10 @@ export default function Contact() {
         </div>
 
         <div className="form border-[1px] border-lightprim mt-[30px] rounded-[5px] w-[100%] py-[50px] px-[26px]
-              md:w-[520px] lg:flex-[1]
+              
               ">
-          <form className='flex flex-col gap-[20px] ' action="#">
+          <form className='flex flex-col gap-[20px]  ' action="#">
+            <div className="input_field flex flex-col md:flex-row gap-[20px]">
             <input className='placeholder-lightprim   py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
                md:py-[20px]   ' type="text" name="name" id="name" placeholder='Name' />
@@ -36,7 +37,7 @@ export default function Contact() {
             <input className='placeholder-lightprim  red py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
                md:py-[20px]   ' type="text" name="subject" id="subject" placeholder='Subject' />
-
+</div>
             <textarea className='placeholder-lightprim   py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
 

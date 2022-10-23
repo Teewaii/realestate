@@ -38,6 +38,7 @@ module.exports = {
         'hero-right-mob': "url('../src/img/bkg_mob.png')",
         'hero-contact': "url('../src/img/cont_bg.png')",
         'hds': "url('../src/img/headshot.png')",
+        'pix_frame': "url('../src/img/pix_frame.png')",
         'hdsabout': "url('../src/img/about_bkg.png')",
       },
       fontFamily: {
