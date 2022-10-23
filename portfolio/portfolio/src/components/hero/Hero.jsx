@@ -15,7 +15,7 @@ export default function Hello() {
       dark:bg-dark pb-[152px]
             '>
       <div className='bucket container pt-[35px] text-[17px]
-                lg:pt-[10px] xl:pt-[150px]  3xl:pt-[220px] lg:flex lg:h-[100vh] lg:items-start justify-center
+                lg:pt-[10px] xl:pt-[80px]  3xl:pt-[220px] lg:flex lg:h-[100vh] lg:items-start justify-center
                
                 '>
         <div className="desc text-left lg:flex-[1.7]  overflow-x-hidden">
