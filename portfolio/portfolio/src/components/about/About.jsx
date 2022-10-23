@@ -20,7 +20,7 @@ const tools=[
 export default function About() {
   return (
     <section className='about bg-primary  
-    md:pb-[40px] 
+    md:pb-[40px] dark:bg-dark
     
     
     

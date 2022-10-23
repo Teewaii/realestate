@@ -11,8 +11,8 @@ export default function Hello() {
   return (
 
     <section className='hero  relative bg-hero-right-mob pt-[120px] bg-contain bg-right-top bg-no-repeat overflow-hidden
-            lg:bg-hero-right-lg lg:h-[70vh] xl:h-[90vh] 
-                        dark:bg-dark pb-[152px]
+            lg:bg-hero-right-lg dark:bg-none lg:h-[70vh] xl:h-[90vh]  
+      dark:bg-dark pb-[152px]
             '>
       <div className='bucket container pt-[45px] text-[17px]
                 lg:pt-[10px] xl:pt-[150px]  3xl:pt-[220px] lg:flex lg:h-[100vh] lg:items-start justify-center
@@ -22,15 +22,17 @@ export default function Hello() {
           <h2 className='mb-[5px] font-medium text-[18px] dark:text-secondary
                     lg:text-[20px] md:mt-[50px]  3xl:mt-[100px]  3xl:text-[30px]
                     '>Hi, my name is</h2>
-          <h1 className='name text-lightprim text-[1.3rem] mb-[12px] relative  inline-block pr-[3px]                   
+          <h1 className='name text-lightprim text-[1.8rem] mb-[12px] relative  inline-block pr-[3px]                   
                        md:text-[2.5rem] md:mb-[18px] 2xl:mb-[26px]  xl:text-[3.5rem]  bg-[white]  dark:bg-dark                
 
                        '>Ajimati Taiye</h1>
-          <h1 className='header max-w-[350px] relative after:absolute after:bg-secondary after:w-[90%] after:h-[9px] after:left-0 after:bottom-[2px] after:z-[-20] mb-[20px]
-                    md:text-[68px]   2xl:text-[70px] md:leading-[4.5rem] 2xl:leading-[5rem] lg:after:h-[12px] md:max-w-[650px]  2xl:max-w-[650px] md:after:bottom-[7px] 2xl:after:bottom-[11px] 
+          <h1 className='header job   text-[2rem] relative after:absolute after:bg-secondary   after:w-[90%] after:h-[9px] after:left-0 after:bottom-[2px] after:z-[-20] dark:after:z-[-1] 
+          mb-[20px] dark:z-[2]
+                    md:text-[68px] 
+                    2xl:text-[70px] md:leading-[4.5rem] 2xl:leading-[5rem] lg:after:h-[12px] md:max-w-[650px]  2xl:max-w-[650px] md:after:bottom-[7px] 2xl:after:bottom-[11px] 
                     dark:text-[white]
                     ' >I build web based software solutions!</h1>
-          <p className="body text-[1rem] md:text-[1.2rem] w-[90%] mb-[28px] dark:text-[white]
+          <p className="body text-[1.2rem] md:text-[1.4rem] w-[90%] mb-[28px] dark:text-[white]
                     md:w-[85%]   2xl:text-[1.3rem]  2xl:w-[65%] md:mb-[50px] 2xl:mb-[90px] md:leading-[1.8rem] 2xl:leading-[2rem]
                     ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
           <Btn />
