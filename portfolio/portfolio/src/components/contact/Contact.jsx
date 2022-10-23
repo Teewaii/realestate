@@ -28,23 +28,23 @@ export default function Contact() {
         <div className="form border-[1px] border-lightprim mt-[30px] rounded-[5px] w-[100%] py-[50px] px-[26px]
               
               ">
-          <form className='flex flex-col gap-[20px]  ' action="#">
-            <div className="input_field flex flex-col md:flex-row gap-[20px]">
-            <input className='placeholder-lightprim   py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
+          <form className='flex flex-col gap-[40px]  ' action="#">
+            <div className="input_field flex flex-col md:flex-row gap-[40px]">
+              <input className='placeholder-lightprim   py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
                md:py-[20px]   ' type="text" name="name" id="name" placeholder='Name' />
 
-            <input className='placeholder-lightprim  red py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
+              <input className='placeholder-lightprim  red py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
                md:py-[20px]   ' type="text" name="subject" id="subject" placeholder='Subject' />
-</div>
+            </div>
             <textarea className='placeholder-lightprim   py-[10px] border-[1px] border-lightprim w-[100%] rounded-[5px]
                 pl-[24px] focus:border-0 focus:ring-[2px] focus:ring-primary  focus:outline-none
 
 md:py-[20px]'  name="msg" id="msg" cols="30" rows="8" placeholder='Message'></textarea>
             < div className='send flex justify-between mt-3'>
-              <button className='btn rounded-[10px] py-[18px] px-[55px]
-       lg:px-[70px] lg:py-[20px] text-secondary text-[20px] font-medium ease-in-out dark:text-dark dark:bg-secondary dark:hover:bg-primary
+              <button className='btn rounded-[10px] py-[18px] px-[55px] text-[20px]
+       lg:px-[70px] lg:py-[20px] text-secondary md:text-[30px] font-medium ease-in-out dark:text-dark dark:bg-secondary dark:hover:bg-primary
       duration-300 bg-primary hover:bg-secondary dark:hover:text-lightprim  hover:text-primary inline'>Send</button>
               <span></span>
             </div>
