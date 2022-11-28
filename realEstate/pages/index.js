@@ -3,7 +3,7 @@ import {Flex, Box, Text,Button} from '@chakra-ui/react';
 import Link from 'next/link';
 const Banner=({purpose})=>(
   <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
-<Image/>
+{/* <Image/> */}
   </Flex>
 )
 export default function Home() {
