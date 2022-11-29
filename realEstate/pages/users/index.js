@@ -12,7 +12,7 @@ function Users({ users }) {
           <li>
 
             <Link href={`users/${item.id}`} passHref>
-              <h1>{item.username}</h1>
+              <h1>{item.id}: {item.username}</h1>
               <p>{item.email}</p>
               <hr />
             </Link>
