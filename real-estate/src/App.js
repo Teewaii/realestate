@@ -15,7 +15,7 @@ function App() {
     <div className="App relativeh-screen bg-red-500">
      <Nav toggle={toggle} setMenu={setToggle} toggleMenu={toggleMenu}/>
      <PropertyCard/>
-     <Modal toggle={toggle}/>
+     <Modal toggle={toggle} toggleMenu={toggleMenu}/>
     </div>
   );
 }

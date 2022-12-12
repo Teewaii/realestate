@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Modal({toggle}) {
+function Modal({toggle,toggleMenu}) {
   return (
-    <div className={!toggle?'absolute bg-black left-0 right-0 top-0 bottom-0 opacity-50  ':'hidden'}>
-        hello
+    <div onClick={toggleMenu}  className={!toggle?'absolute bg-black left-0 right-0 top-0 bottom-0 opacity-50  ':'hidden'}>
+        
     </div>
   )
 }
