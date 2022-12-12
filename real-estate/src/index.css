@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.hCJOJS {
+  background-color: brown;
+}
 
 @tailwind base;
 @tailwind components;
