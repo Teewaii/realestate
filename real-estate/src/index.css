@@ -21,10 +21,10 @@ code {
  bottom:10px
 } */
 
-.swiper-button-prev::after,.swiper-button-next::after{
+.swiper-button-prev::after,
+.swiper-button-next::after {
   color: white;
-
- 
+  display: none;
   /* color: #8DD69C; */
 }
 

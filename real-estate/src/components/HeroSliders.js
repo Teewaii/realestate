@@ -4,23 +4,52 @@ import hero2 from '../img/hero2.jpg';
 import hero3 from '../img/hero3.jpg';
 import hero4 from '../img/hero4.jpg'
 
-import hero from '.././img/hero1.jpg'
+import heroo from '.././img/cardPix.jpg'
+
+
 const heroImg = [
     {
-       id:1,
-        pix:'hero',
+        id: 1,
+        pix: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        price: 14000,
+        state: 'Michigan',
+        city: 'Detroit',
+        bed: '2',
+        bath: '1',
+        size: '1200 sqf',
     },
     {
-        id:2,
-        pix:'hero2',
+        id: 2,
+        pix: 'https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        price: 18000,
+        state: 'Michigan',
+        city: 'Detroit',
+        str: 'Murray Hill',
+        bed: '3',
+        bath: '2',
+        size: '1800 sqf',
     },
     {
-        id:3,
-        pix:'hero3',
+        id: 3,
+        pix: 'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        price: 25000,
+        state: 'Michigan',
+        city: 'Detroit',
+        str: 'Murray Hill',
+        bed: '3',
+        bath: '2',
+        size: '1900 sqf',
     },
     {
-        id:4,
-        pix:'hero4',
+        id: 4,
+        pix: 'https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=978&q=80',
+        price: 35000,
+        state: 'Michigan',
+        city: 'Detroit',
+        str: 'Murray Hill',
+        bed: '4',
+        bath: '3',
+        size: '2200 sqf',
     },
 
 ]
