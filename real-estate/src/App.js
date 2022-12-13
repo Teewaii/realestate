@@ -4,7 +4,8 @@ import { useState } from 'react';
 import Nav from './components/Nav';
 import PropertyCard from './components/PropertyCard';
 import Modal from './components/Modal';
-import HeaderSlider from './components/HeaderSlider';
+import Heroslider from './components/Heroslider';
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App relativeh-screen ">
       <Nav toggle={toggle} setMenu={setToggle} toggleMenu={toggleMenu} />
-      <HeaderSlider />
+     <Heroslider/>
       <PropertyCard />
       <Modal toggle={toggle} toggleMenu={toggleMenu} />
     </div>
