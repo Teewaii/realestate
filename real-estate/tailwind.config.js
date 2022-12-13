@@ -13,7 +13,9 @@ module.exports = {
           xl: '5rem',
           '2xl': '6rem',
         },
+        center:true
       },
+     
       colors:{
         green:'#8DD69C',
         Darkgreen:'#60996c',

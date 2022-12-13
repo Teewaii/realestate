@@ -9,16 +9,17 @@ import Heroslider from './components/Heroslider';
 
 
 function App() {
+  const [data,setData]=useState([])
 
   const [toggle, setToggle] = useState(false)
   function toggleMenu() {
     setToggle(prev => !prev)
   }
   return (
-    <div className="App relativeh-screen ">
+    <div className="App relative min-h-screen  overflow-hidden">
       <Nav toggle={toggle} setMenu={setToggle} toggleMenu={toggleMenu} />
      <Heroslider/>
-      <PropertyCard />
+      <PropertyCard data={data} setData={setData} />
       <Modal toggle={toggle} toggleMenu={toggleMenu} />
     </div>
   );
