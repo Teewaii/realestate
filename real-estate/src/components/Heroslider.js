@@ -17,7 +17,7 @@ import Search from './Search';
 function Heroslider() {
   return (
     <div className='w-screen h-[28vh] md:h-[40vh] bg-gray-600 flex flex-col items-center justify-center
-    lg:h-[65vh] 2xl:h-[70vh]
+    lg:h-[65vh] 2xl:h-[55vh]
     '>
       <div className="swiper-wrapper relative ">
         <Swiper
@@ -44,16 +44,16 @@ function Heroslider() {
         >
 
           <SwiperSlide>
-            <img src={hero1} alt='hero-image' className=' w-[100%] h-[100%] opacity-70' />
+            <img src={hero1} alt='hero-image' className=' w-[100%] h-[100%] opacity-50' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={hero2} alt='hero-image' className=' w-[100%] h-[100%] opacity-70 ' />
+            <img src={hero2} alt='hero-image' className=' w-[100%] h-[100%] opacity-50 ' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={hero3} alt='hero-image' className=' w-[100%] h-[100%] opacity-70 ' />
+            <img src={hero3} alt='hero-image' className=' w-[100%] h-[100%] opacity-50 ' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={hero4} alt='hero-image' className=' w-[100%] h-[100%] opacity-70' />
+            <img src={hero4} alt='hero-image' className=' w-[100%] h-[100%] opacity-50' />
           </SwiperSlide>
 
         </Swiper>

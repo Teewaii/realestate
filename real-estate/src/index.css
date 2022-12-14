@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(128, 128, 128, 0.178);
+  background-color: rgba(184, 184, 184, 0.137);
 }
 
 
@@ -20,6 +20,41 @@ code {
  transform: translateX(-50%);
  bottom:10px
 } */
+
+/* .swiper-wrapper{
+  height: 300px !important;
+  background-color: black;
+}
+
+.swiper-wrapper img{
+  height: 100% ;
+} */
+
+.mySwiper2-carouser{
+  max-height: 350px;
+  background-color: black;
+}
+.mySwiper-carouser{
+  height: fit-content;
+  margin-top: 10px;
+}
+.mySwiper-carouser img{
+ max-height: 100px;
+}
+
+@media screen and (max-width:820px){
+  .mySwiper-carouser img{
+    max-height: 55px;
+    
+   }
+
+   .mySwiper2-carouser{
+    height: 150px;
+    background-color: black;
+  }
+   
+}
+
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
