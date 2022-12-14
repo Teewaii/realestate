@@ -3,7 +3,7 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 function Search() {
   return (
     <div className='flex flex-col justify-center items-center absolute lg:top-[40%]  lg:left-[10%] lg:right-[10%] z-[40] '>
-      <h1 className='  text-white md:text-5xl lg:text-6xl text:shadow-xl font-bold lg:mt-[-170px] 2xl:mt-[-150px] lg:max-w-[700px] text-center '>Your dream home is here!</h1>
+      <h1 className='  text-white md:text-5xl lg:text-5xl 2xl:text-6xl  text:shadow-xl font-bold lg:mt-[-170px] xl:mt-[-100px] 2xl:mt-[-150px] lg:max-w-[700px] text-center '>Your dream home is here!</h1>
       <span className='relative'>
         <MagnifyingGlassIcon
           className='w-4 absolute left-4 top-[30%] md:top-[70%] right-0 text-gray-400 z-[200]' />

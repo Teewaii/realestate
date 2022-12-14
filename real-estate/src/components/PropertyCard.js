@@ -40,14 +40,14 @@ function PropertyCard({ data, setData }) {
   }, [])
   return (
     <>
-    
-      {cardata.map(({ pix, id, price, state, str, city, bed, bath, size,time }) => (
-      // <Link  key={id} to='/name' className='' >
-         <Link key={id} to='/name' className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
-        <div className="thumb relative border">
-          <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
-        {time && <small className='bg-white text-red-800 font-medium absolute top-[70%] right-[25px] py-1 px-2 rounded-md '>New!</small>}
-          </div>  
+
+      {cardata.map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+        // <Link  key={id} to='/name' className='' >
+        <Link key={id} to='/name' className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
+          <div className="thumb relative ">
+            <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
+            {time && <small className='bg-white text-red-800 font-medium absolute top-[70%] right-[25px] py-1 px-2 rounded-md '>New!</small>}
+          </div>
           <div className="desc mx-4">
             <div className="top-desc flex items-start justify-between pb-2 relative after:absolute after:left-0 after:right-0 after:bg-green after:h-[0.5px] after:bottom-0">
               <div className="text text-left flex flex-col mt-2 space-y-1">
@@ -69,10 +69,10 @@ function PropertyCard({ data, setData }) {
             '></span> <span className='text-sm font-medium'>{size}</span>
             </div>
           </div>
-       
+
         </Link>
       ))}
-      
+
     </>
   )
 }

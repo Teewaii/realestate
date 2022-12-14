@@ -9,13 +9,13 @@ import { FaBath } from 'react-icons/fa'
 
 function RentaldCard() {
   return (
-    
-        <>
+
+    <>
       {cardata.map(({ pix, id, price, state, str, city, bed, bath, size }) => (
         <div key={id} className="card bg-white shadow-lg rounded-lg h-[450px] pb-4 lg:pb-0 sm:h-[330px] w-[90%] md:w-[250px] lg:w-[285px]  2xl:w-[250px]  cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
-         <div className="thumb relative border">
-          <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
-          <small className='bg-white text-red-800 font-medium absolute top-[70%] right-[25px] py-1 px-2 rounded-md '>New!</small>
+          <div className="thumb relative">
+            <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
+            <small className='bg-white text-red-800 font-medium absolute top-[70%] right-[25px] py-1 px-2 rounded-md '>New!</small>
           </div>
           <div className="desc mx-4">
             <div className="top-desc flex items-end justify-between pb-2 relative after:absolute after:left-0 after:right-0 after:bg-green after:h-[0.5px] after:bottom-0">
@@ -42,7 +42,7 @@ function RentaldCard() {
 
       ))}
     </>
-   
+
   )
 }
 
