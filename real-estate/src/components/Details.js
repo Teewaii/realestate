@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import {IoLocationSharp} from 'react-icons/io5'
 import DetailsCarousal from './DetailsCarousal';
 import GenInfo from './GenInfo';
+import Agent_Card from './Agent_Card';
 
 function Details() {
     const {name}=useParams()
@@ -10,7 +11,7 @@ function Details() {
   return (
     <div className='py-10 container min-h-screen'>
       <div className="details-wrapper flex justify-between">
-      <div className="left w-[100%] lg:w-[70%]">
+      <div className="left w-[100%] lg:w-[72%]">
       <div className="top flex items-end justify-between  w-[100%]">
         <div className="text flex flex-col items-start  ">
           <h1 className='text-lg lg:text-3xl mb-2'>
@@ -36,7 +37,7 @@ function Details() {
 </div>
     </div>
 <div className="right hidden lg:flex">
-  Agents contact
+ <Agent_Card/>
 </div>
 
   </div>
