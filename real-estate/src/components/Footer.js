@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <section className="footer bg-gray-600 h-[fit] py-10 lg:py-8">
+    <section className="footer bg-gray-600 h-[fit] py-10 lg:py-8 mt-8">
     <div className='container flex flex-wrap gap-y-6 items-center justify-between'>
 
        <div className="HomeFast flex flex-col items-start ">

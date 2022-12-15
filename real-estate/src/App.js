@@ -9,6 +9,8 @@ import Heroslider from './components/Heroslider';
 import Cardscontainer from './components/Cardscontainer';
 import Details from './components/Details';
 import Footer from './components/Footer';
+import All_Rent from './routes/All_Rent';
+import All_Sale from './routes/All_Sale';
 
 
 
@@ -28,6 +30,10 @@ function App() {
      </Route>
      <Route path='/:name' element={ <Details/>}>
      </Route>
+     <Route path='/rent-all' element={<All_Rent/>}>
+    </Route>
+     <Route path='/sale-all' element={ <All_Sale/>}>
+    </Route>
       </Routes>
        <Modal toggle={toggle} toggleMenu={toggleMenu} />
        <Footer/>

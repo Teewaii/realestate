@@ -9,7 +9,7 @@ function Details() {
     const {name}=useParams()
     window.scroll(0, 0);
   return (
-    <div className='py-10 container min-h-screen'>
+    <div className='pt-10 pb-12 container min-h-screen'>
       <div className="details-wrapper flex justify-between">
       <div className="left w-[100%] lg:w-[72%]">
       <div className="top flex items-end justify-between  w-[100%]">
