@@ -8,7 +8,9 @@ import { XMarkIcon } from '@heroicons/react/24/solid';
 function Nav({ toggle, setToggle, toggleMenu }) {
 
   return (
-    <nav className='h-20 shadow-md flex relative flex-col items-center justify-center  bg-white z-[500]'>
+    <nav className='h-20 shadow-md flex relative flex-col items-center justify-center bg-white z-[500]
+    after:absolute after:left-0 after:right-0 after:bottom-0 after:h-1 after:bg-green
+    '>
       <div className="nav-wrapper flex items-center justify-between container">
         <div className='left flex justify-between  lg:justify-start w-screen lg:gap-x-24'>
         <a href="/" className='flex'>

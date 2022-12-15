@@ -8,6 +8,7 @@ import Modal from './components/Modal';
 import Heroslider from './components/Heroslider';
 import Cardscontainer from './components/Cardscontainer';
 import Details from './components/Details';
+import Footer from './components/Footer';
 
 
 
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className={!toggle ? "App  min-h-screen  overflow-hidden" : " relative max-h-screen  overflow-hidden"}>
       <Nav toggle={toggle} setMenu={setToggle} toggleMenu={toggleMenu} />
-      {/* <Heroslider /> */}
+      
     <Routes>
      <Route path='/' element={ <Cardscontainer data={data} setData={setData}/>}>
      </Route>
@@ -29,7 +30,7 @@ function App() {
      </Route>
       </Routes>
        <Modal toggle={toggle} toggleMenu={toggleMenu} />
-
+       <Footer/>
     </div>
   );
 }
