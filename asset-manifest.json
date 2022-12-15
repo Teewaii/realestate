@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02f88391.css",
+    "main.js": "/static/js/main.06a0cec5.js",
+    "static/js/787.a83accd8.chunk.js": "/static/js/787.a83accd8.chunk.js",
+    "static/media/hero1.jpg": "/static/media/hero1.6a16f6216144bfdbf9e1.jpg",
+    "static/media/agent.jpg": "/static/media/agent.d4f2a791b605b0073b57.jpg",
+    "static/media/hero4.jpg": "/static/media/hero4.470c19e1640177c20831.jpg",
+    "static/media/hero2.jpg": "/static/media/hero2.197ae01e3854fbd55373.jpg",
+    "static/media/hero3.jpg": "/static/media/hero3.e159276c3f6d81da064a.jpg",
+    "static/media/cardPix.jpg": "/static/media/cardPix.7a3a4f9b1a3808a17c9a.jpg",
+    "static/media/damac_logo.png": "/static/media/damac_logo.974537241190fc941a64.png",
+    "static/media/logo.svg": "/static/media/logo.37b61527a04ecd15f330712c2b86ec17.svg",
+    "index.html": "/index.html",
+    "main.02f88391.css.map": "/static/css/main.02f88391.css.map",
+    "main.06a0cec5.js.map": "/static/js/main.06a0cec5.js.map",
+    "787.a83accd8.chunk.js.map": "/static/js/787.a83accd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02f88391.css",
+    "static/js/main.06a0cec5.js"
+  ]
+}
