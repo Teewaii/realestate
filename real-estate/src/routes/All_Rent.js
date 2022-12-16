@@ -1,8 +1,13 @@
 import React from 'react'
+import Filter from '../components/Filter'
 
 function All_Rent() {
   return (
-    <div>All_Rent</div>
+    <div>
+      <div className="rental-wrapper container">
+        <Filter />
+      </div>
+    </div>
   )
 }
 
