@@ -14,7 +14,7 @@ function Cardscontainer({ data,setData}) {
  <div className="sales-section items-start ">
      <div className="top flex items-center justify-between mb-6">
      <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium flex'>Featured Sales</h1>
-   <Link to='#' className='px-5 text-sm border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
+   <Link to='sale-all' className='px-5 text-sm border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
      </div>
     <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
   <PropertyCard />

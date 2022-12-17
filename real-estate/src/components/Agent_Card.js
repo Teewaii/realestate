@@ -5,7 +5,7 @@ import { EnvelopeIcon } from '@heroicons/react/24/solid';
 
 function Agent_Card() {
   return (
-    <div className='bg-white rounded-sm h-[400px] w-[320px] mt-[80px] flex 
+    <div className='bg-white rounded-sm h-[400px] w-[320px] flex 
     justify-center py-6 shadow-sm'>
       <div className="agent-wrapper flex flex-col items-center ">
         <img src={agent} alt="aagent-pix" className='rounded-full w-[100px] 2xl:w-[130px] mb-4 border-gray-300 border-2' />

@@ -19,10 +19,10 @@ function Nav({ toggle, setToggle, toggleMenu }) {
             <img src={logo} alt="logo" className='cursor-pointer w-[150px]  flex' />
           </a>
           <ul className={!toggle ? "nav-items bg-green absolute w-[250px] h-screen  text-left space-y-4 shadow-lg left-[-300px] lg:left-0  top-[80px]  py-8 lg:flex items-center gap-x-6  lg:top-0 lg:relative lg:w-fit lg:space-y-0 lg:bg-transparent lg:h-fit lg:shadow-none " : "duration-200 ease-in-out nav-items absolute top-[80px] w-[250px] pt-8 h-screen lg:py-0 bg-green text-left left-0 lg:flex items-center gap-x-6 lg:relative lg:w-fit lg:bg-white lg:top-0"}>
-            <Link to='/sale-all' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' >For Sale</Link>
-            <Link to='/rent-all' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' >For Rent</Link>
-            <Link to='#' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' >Monthly Sale</Link>
-            <Link to='#' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' >Agents</Link>
+            <Link to='/sale-all' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' onClick={() => setToggle(false)} >For Sale</Link>
+            <Link to='/rent-all' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' onClick={() => setToggle(false)} >For Rent</Link>
+            <Link to='#' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' onClick={() => setToggle(false)} >Monthly Sale</Link>
+            <Link to='#' className='hover:bg-Darkgreen lg:hover:bg-white px-4 py-2 pl-8 lg:pl-0 lg:px-0 lg:py-0' onClick={() => setToggle(false)} >Agents</Link>
           </ul>
           {!toggle ?
             <Bars3Icon onClick={toggleMenu} className='w-8 lg:hidden cursor-pointer duration-300 ease-in-out' /> :

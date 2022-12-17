@@ -28,7 +28,7 @@ function App() {
     <Routes>
      <Route path='/' element={ <Cardscontainer data={data} setData={setData}/>}>
      </Route>
-     <Route path='/:name' element={ <Details/>}>
+     <Route path='/:id' element={ <Details/>}>
      </Route>
      <Route path='/rent-all' element={<All_Rent/>}>
     </Route>
