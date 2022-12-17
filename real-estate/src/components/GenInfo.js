@@ -59,7 +59,7 @@ function GenInfo() {
         ))}
       </div>
       {HeroSliders.filter((item) => item.id == id).map(({ desc }) => (
-        <div className="desc  bg-white mt-6 rounded-sm shadow-sm border-gray-100 border-[0.3px] h-fit p-6 ">
+        <div key={id} className="desc  bg-white mt-6 rounded-sm shadow-sm border-gray-100 border-[0.3px] h-fit p-6 ">
           <h1 className='font-medium text-left mb-2'>Description</h1>
           <p className='text-left text-sm 2xl:text-md text-gray-400'>{desc}</p>
         </div>
