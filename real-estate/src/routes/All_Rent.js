@@ -7,7 +7,7 @@ import { FaWindows } from 'react-icons/fa'
 function All_Rent() {
   window.scroll(0, 0)
   return (
-    <div className='min-h-screen '>
+    <div className='mt-[130px] min-h-screen '>
       <div className="rental-wrapper container">
         <Filter />
       </div>

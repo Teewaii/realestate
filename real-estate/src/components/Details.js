@@ -21,7 +21,7 @@ function Details() {
 
   return (
 
-    <div className='pt-10 pb-12 container min-h-screen'>
+    <div className='mt-20 pt-10 pb-12 container min-h-screen'>
 
       {HeroSliders.filter((item) => item.id == id).map(({ id, str, state, city, price }) => (
         <div key={id} className="details-wrapper flex justify-between">
