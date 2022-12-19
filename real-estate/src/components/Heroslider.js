@@ -18,7 +18,7 @@ import Search from './Search';
 function Heroslider() {
   return (
     <div className='w-screen h-[30vh] md:h-[40vh] bg-gray-600 flex flex-col items-center justify-center
-    lg:h-[65vh] 2xl:h-[75vh]
+    lg:h-[72vh] 2xl:h-[75vh]
     '>
       <div className="swiper-wrapper relative ">
         <Swiper

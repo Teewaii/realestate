@@ -1,5 +1,6 @@
 import React from 'react'
 import Filter from '../components/Filter'
+import cardata from '../components/PropertyLists';
 import PropertyCard from '../components/PropertyCard'
 import Cards_Wrapper from '../components/Cards_Wrapper'
 import { FaWindows } from 'react-icons/fa'
@@ -13,7 +14,7 @@ function All_Rent() {
       </div>
       <div className="title flex gap-x-2 items-end container mt-6">
         <p className='text-xl lg:text-2xl font-medium text-gray-700'>Apartments for Rent</p>
-        <small className='text-[12px] lg:text-[14px] text-gray-500'>(23,000) results found.</small>
+        <small className='text-[12px] lg:text-[14px] text-gray-500'>({cardata.length}) properties found.</small>
       </div>
 
       {/* <Cards_Wrapper /> */}

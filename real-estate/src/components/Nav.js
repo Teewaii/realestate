@@ -10,7 +10,7 @@ import { XMarkIcon } from '@heroicons/react/24/solid';
 function Nav({ toggle, setToggle, toggleMenu }) {
 
   return (
-    <nav className='h-[5rem] lg:h-[7rem]  flex fixed top-0 left-0 right-0 flex-col items-center justify-center bg-white z-[500]
+    <nav className='h-[6rem] 2xl:h-[7rem]  flex fixed top-0 left-0 right-0 flex-col items-center justify-center bg-white z-[500]
     after:absolute after:left-0 after:right-0 after:bottom-0 after:h-1 after:bg-lime-500
     '>
       <div className="nav-wrapper flex items-center justify-between container">

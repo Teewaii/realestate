@@ -4,22 +4,20 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import damac_logo from '.././img/damac_logo.png'
 //import cardPix from '.././img/cardPix.jpg';
-import { FaBed } from 'react-icons/fa'
-import { FaBath } from 'react-icons/fa'
-import cardata from './PropertyLists'
+import { FaBed } from 'react-icons/fa';
+import { FaBath } from 'react-icons/fa';
+import cardata from './PropertyLists';
 import Details from './Details';
-import { properties, fetchData } from '../utils/fetchData';
 
-
-function PropertyCard({ data, setData,slicer,setSlicer }) {
+function PropertyCard({ data, setData, slicer, setSlicer }) {
   useEffect(() => {
-
+    var slicer = '.slice(1,4)'
   }, [])
   return (
     <>
 
-      {slicer&&cardata.slice(0,4).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
-        // <Link  key={id} to='/name' className='' >
+      {cardata.slice(0, 4).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+        // <Link key={id} to='/name' className='' >
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
           <div className="thumb relative ">
             <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
