@@ -10,25 +10,8 @@ import Details from './Details';
 import { properties, fetchData } from '../utils/fetchData';
 
 
-
-
-
 function PropertyCard({ data, setData }) {
-
-
-
-
   useEffect(() => {
-
-
-
-
-    // const getProperties = async () => {
-    //   const test = await fetchData('https://us-real-estate.p.rapidapi.com/v2/for-sale', properties)
-    //   setData(test)
-
-    // }
-
 
   }, [])
   return (
