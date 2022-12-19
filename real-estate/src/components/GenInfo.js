@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import HeroSliders from './HeroSliders';
+import HeroSliders from './PropertyLists';
 
 function GenInfo() {
   const { id } = useParams()

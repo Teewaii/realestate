@@ -1,23 +1,24 @@
 import React, { useEffect, useState } from 'react';
+import millify from "millify";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import damac_logo from '.././img/damac_logo.png'
 //import cardPix from '.././img/cardPix.jpg';
 import { FaBed } from 'react-icons/fa'
 import { FaBath } from 'react-icons/fa'
-import cardata from './HeroSliders'
+import cardata from './PropertyLists'
 import Details from './Details';
 import { properties, fetchData } from '../utils/fetchData';
 
 
-function PropertyCard({ data, setData }) {
+function PropertyCard({ data, setData,slicer,setSlicer }) {
   useEffect(() => {
 
   }, [])
   return (
     <>
 
-      {cardata.map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+      {slicer&&cardata.slice(0,4).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
         // <Link  key={id} to='/name' className='' >
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
           <div className="thumb relative ">
@@ -27,7 +28,7 @@ function PropertyCard({ data, setData }) {
           <div className="desc mx-4">
             <div className="top-desc flex items-start justify-between pb-2 relative after:absolute after:left-0 after:right-0 after:bg-green after:h-[0.5px] after:bottom-0">
               <div className="text text-left flex flex-col mt-2 space-y-1">
-                <h1 className='text-xl font-semibold  mb-1 relative '>{price} <span>&#36;</span>  </h1>
+                <h1 className='text-xl font-semibold  mb-1 relative '>{millify(price)} <span>&#36;</span>  </h1>
                 <p className='text-sm font-medium text-gray-700'>Apartment for sale</p>
                 <small className='text-[10.5px] text-gray-500'>{state}, {str}</small>
                 <small className='text-[12px] text-gray-500'>26 November 2020</small>

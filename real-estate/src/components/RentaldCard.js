@@ -1,5 +1,5 @@
 import React from 'react'
-import cardata from './HeroSliders'
+import cardata from './PropertyLists'
 //import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import damac_logo from '.././img/damac_logo.png'

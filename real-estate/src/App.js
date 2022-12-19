@@ -32,6 +32,7 @@ import axios from 'axios'
 
 function App() {
   const [data, setData] = useState([])
+  const [slicer, setSlicer] = useState(true)
 
   const [toggle, setToggle] = useState(false)
   function toggleMenu() {
@@ -39,25 +40,6 @@ function App() {
   }
 
 
-  // const getProperties = async () => {
-  //   const test = await fetchData('https://us-real-estate.p.rapidapi.com/v2/for-sale', properties)
-  //   console.log(data)
-
-  // }
-
-  useEffect(() => {
-    // axios.request(options).then(function (response) {
-    //   console.log(response.data);
-    // }).catch(function (error) {
-    //   console.error(error);
-    // }); axios.request(options).then(function (response) {
-    //   console.log(response.data);
-    // }).catch(function (error) {
-    //   console.error(error);
-    // });
-
-
-  }, [])
 
   // console.log(data)
   return (
@@ -65,7 +47,9 @@ function App() {
       <Nav toggle={toggle} setMenu={setToggle} toggleMenu={toggleMenu} />
 
       <Routes>
-        <Route path='/' element={<Cardscontainer data={data} setData={setData} />}>
+        <Route path='/' element={<Cardscontainer data={data} setData={setData}
+        slicer={slicer} setSlicer = {setSlicer}
+        />}>
         </Route>
         <Route path='/:id' element={<Details />}>
         </Route>

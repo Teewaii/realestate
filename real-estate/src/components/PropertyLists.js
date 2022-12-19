@@ -77,6 +77,71 @@ const heroImg = [
         size: '2200 sqf',
         desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
     },
+    {
+        id: 6,
+        pix: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
+        price: 14100,
+        purpose: 'Rent',
+        state: 'Nebraska',
+        city: 'Clinton',
+        str: '1370 Hobbton Hwy',
+        bed: '4',
+        bath: '3',
+        size: '2200 sqf',
+        desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
+    },
+    {
+        id: 7,
+        pix: 'https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+        price: 350000,
+        purpose: 'Rent',
+        state: 'Nebraska',
+        city: 'Clinton',
+        str: '1770 Hobbton Hwy',
+        bed: '4',
+        bath: '3',
+        size: '2200 sqf',
+        desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
+    },
+    {
+        id: 8,
+        pix: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        price: 550000,
+        purpose: 'Rent',
+        state: 'Nebraska',
+        city: 'Clinton',
+        str: '1770 Hobbton Hwy',
+        bed: '4',
+        bath: '3',
+        size: '2200 sqf',
+        desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
+    },
+    {
+        id: 9,
+        pix: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        price: 390000,
+        purpose: 'Rent',
+        state: 'Nebraska',
+        city: 'Clinton',
+        str: '1770 Hobbton Hwy',
+        bed: '4',
+        bath: '3',
+        size: '2200 sqf',
+        desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
+    },
+    {
+        id: 10,
+        pix: 'https://images.unsplash.com/photo-1636309457768-66c49d6cae69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        price: 1500000,
+        purpose: 'Rent',
+        state: 'Nebraska',
+        city: 'Clinton',
+        str: '1770 Hobbton Hwy',
+        bed: '5',
+        bath: '5',
+        size: '35200 sqf',
+        desc: 'sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus'
+    },
 
 ]
 

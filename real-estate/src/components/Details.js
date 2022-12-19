@@ -4,7 +4,7 @@ import { IoLocationSharp } from 'react-icons/io5'
 import DetailsCarousal from './DetailsCarousal';
 import GenInfo from './GenInfo';
 import Agent_Card from './Agent_Card';
-import HeroSliders from './HeroSliders';
+import HeroSliders from './PropertyLists';
 
 function Details() {
   const { id } = useParams()
