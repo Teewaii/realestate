@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/realestate/static/css/main.02f88391.css",
-    "main.js": "/realestate/static/js/main.ede5e2cb.js",
-    "static/js/787.a83accd8.chunk.js": "/realestate/static/js/787.a83accd8.chunk.js",
-    "static/media/hero1.jpg": "/realestate/static/media/hero1.6a16f6216144bfdbf9e1.jpg",
-    "static/media/agent.jpg": "/realestate/static/media/agent.d4f2a791b605b0073b57.jpg",
-    "static/media/hero4.jpg": "/realestate/static/media/hero4.470c19e1640177c20831.jpg",
-    "static/media/hero2.jpg": "/realestate/static/media/hero2.197ae01e3854fbd55373.jpg",
-    "static/media/hero3.jpg": "/realestate/static/media/hero3.e159276c3f6d81da064a.jpg",
-    "static/media/cardPix.jpg": "/realestate/static/media/cardPix.7a3a4f9b1a3808a17c9a.jpg",
-    "static/media/damac_logo.png": "/realestate/static/media/damac_logo.974537241190fc941a64.png",
-    "static/media/logo.svg": "/realestate/static/media/logo.37b61527a04ecd15f330712c2b86ec17.svg",
-    "index.html": "/realestate/index.html",
-    "main.02f88391.css.map": "/realestate/static/css/main.02f88391.css.map",
-    "main.ede5e2cb.js.map": "/realestate/static/js/main.ede5e2cb.js.map",
-    "787.a83accd8.chunk.js.map": "/realestate/static/js/787.a83accd8.chunk.js.map"
+    "main.css": "/static/css/main.a2cc451e.css",
+    "main.js": "/static/js/main.38f3e2f2.js",
+    "static/js/787.a83accd8.chunk.js": "/static/js/787.a83accd8.chunk.js",
+    "static/media/p1.jpg": "/static/media/p1.d4f2a791b605b0073b57.jpg",
+    "static/media/hero4.jpg": "/static/media/hero4.0272538ce89dc0f8031d.jpg",
+    "static/media/hero5.jpg": "/static/media/hero5.81de09d4b2b120f1b9f6.jpg",
+    "static/media/hero3.jpg": "/static/media/hero3.e159276c3f6d81da064a.jpg",
+    "static/media/p4.jpeg": "/static/media/p4.a864e47c13cce4ccea57.jpeg",
+    "static/media/hero2.jpg": "/static/media/hero2.0eefdef56a93354d3094.jpg",
+    "static/media/p9.jpeg": "/static/media/p9.6a8b021c62bd75ec7926.jpeg",
+    "static/media/p10.jpg": "/static/media/p10.bebadf902414a4a48a03.jpg",
+    "static/media/hero1.jpg": "/static/media/hero1.2a0488d8cf60c172fccd.jpg",
+    "static/media/p2.jpeg": "/static/media/p2.4c27079b4cbacb7eece8.jpeg",
+    "static/media/p8.jpeg": "/static/media/p8.f7387b798cde60b4a2eb.jpeg",
+    "static/media/p3.jpeg": "/static/media/p3.8522362973dd00bfb672.jpeg",
+    "static/media/p7.jpeg": "/static/media/p7.61dbfcacd77747649f92.jpeg",
+    "static/media/p5.jpeg": "/static/media/p5.7eefc79f05e523ca7307.jpeg",
+    "static/media/p6.jpeg": "/static/media/p6.be306472ad4ff87cac37.jpeg",
+    "static/media/cardPix.jpg": "/static/media/cardPix.7a3a4f9b1a3808a17c9a.jpg",
+    "static/media/damac_logo.png": "/static/media/damac_logo.974537241190fc941a64.png",
+    "static/media/logo.svg": "/static/media/logo.4bf25a1d409867fd4827033a82e62a5f.svg",
+    "index.html": "/index.html",
+    "main.a2cc451e.css.map": "/static/css/main.a2cc451e.css.map",
+    "main.38f3e2f2.js.map": "/static/js/main.38f3e2f2.js.map",
+    "787.a83accd8.chunk.js.map": "/static/js/787.a83accd8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02f88391.css",
-    "static/js/main.ede5e2cb.js"
+    "static/css/main.a2cc451e.css",
+    "static/js/main.38f3e2f2.js"
   ]
 }
