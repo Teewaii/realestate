@@ -18,12 +18,12 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
         <Heroslider/>
     <div className="cards-wrapper min-h-screen mt-10  container flex flex-col gap-y-6 ">
  <div className="sales-section items-start ">
-     <div className="top flex items-center justify-between mb-6">
+     <div className="top flex items-center justify-between  mb-6">
      <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium flex'>Featured Sales</h1>
-   <Link  to='sale-all' className='px-5 text-sm border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
+   <Link  to='sale-all' className='px-5 text-sm mr-4 lg:mr-0 border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
      </div>
     <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 grid-rows-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5  justify-center md:gap-5 gap-10 justify-items-center '>
-    {cardata.slice(0,4).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+    {cardata.slice(0,5).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
         // <Link key={id} to='/name' className='' >
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
           <div className="thumb relative ">
@@ -63,12 +63,12 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
  <div className="rentals-section items-start ">
  <div className="top flex items-center justify-between mb-6">
      <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium  flex'>Featured Rental</h1>
-   <Link to='rent-all' className='px-5 text-sm border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
+   <Link to='rent-all' className='px-5 text-sm mr-4 lg:mr-0 border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
      </div>
      <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
      
      
-     {cardata.slice(0,4).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+     {cardata.slice(0,5).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
         // <Link key={id} to='/name' className='' >
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
           <div className="thumb relative ">
