@@ -14,6 +14,7 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
 
  
   return (
+    //Home page container for the first 5 properties for sale/for rent.
     <section className='home'>
         <Heroslider/>
     <div className="cards-wrapper min-h-screen mt-10  container flex flex-col gap-y-6 ">
@@ -23,6 +24,8 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
    <Link  to='sale-all' className='px-5 text-sm mr-4 lg:mr-0 border-gray-400 border-[0.5px]  py-1 bg-gray-50 hover:scale-105 duration-300 ease-in-out'>All</Link>
      </div>
     <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 grid-rows-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5  justify-center md:gap-5 gap-10 justify-items-center '>
+   
+    {/* return only the first 5 properties to be displayed on the home page. */}
     {cardata.slice(0,5).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
         // <Link key={id} to='/name' className='' >
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
@@ -55,10 +58,7 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
         </Link>
       ))}
 </div>
-    {/* <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 grid-rows-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5  justify-center md:gap-5 gap-10 justify-items-center '>
-  <PropertyCard  slicer={slicer} setSlicer = {setSlicer} />
-</div> */}
-    </div>
+     </div>
 
  <div className="rentals-section items-start ">
  <div className="top flex items-center justify-between mb-6">
@@ -67,9 +67,9 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
      </div>
      <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
      
-     
-     {cardata.slice(0,5).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
-        // <Link key={id} to='/name' className='' >
+      {/* return only the first 5 properties to be displayed on the home page. */}
+         {cardata.slice(0,5).map(({ pix, id, price, state, str, city, bed, bath, size, time }) => (
+       
         <Link key={id} to={`/${id}`} className="card bg-white shadow-lg rounded-lg h-[395px] pb-4  sm:h-[340px] lg:h-fit lg:pb-4 w-[90%] md:w-[225px] lg:w-[285px] xl:w-[270px] 2xl:w-[250px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 ease-in-out">
           <div className="thumb relative ">
             <img src={pix} alt="property-picture" className='w-[100%] h-[65%] sm:h-[50%] p-2' />
@@ -106,15 +106,6 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
 </div> */}
     </div>
 
-     {/* <div className="Rental-section flex-col items-start ">
-     <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium mb-4 flex'>Featured Rental</h1>
-    <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
-  {cardata.map(({ pix, id, price, state, str, city, bed, bath, size,purpose }) => (
-        <PropertyCard key={id} pix={pix} id={id} price={price} state={state} str={str} city={city} bed={bed} bath={bath} size={size} purpose={purpose} />
-        ))}
-    </div>
-    </div> */}
-
     </div>
     </section>
   )
@@ -123,30 +114,3 @@ function Cardscontainer({ data,setData, slicer,setSlicer}) {
 export default Cardscontainer
 
 
-
-
-
-
-
-
-// <div className="cards-wrapper min-h-screen mt-14  container flex flex-col gap-y-6 ">
-     
-// <div className="sales-section flex-col items-start ">
-// <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium mb-4 flex'>Featured Sales</h1>
-// <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
-// {cardata.map(({ pix, id, price, state, str, city, bed, bath, size,purpose }) => (
-//    <PropertyCard key={id} pix={pix} id={id} price={price} state={state} str={str} city={city} bed={bed} bath={bath} size={size} purpose={purpose} />
-//    ))}
-// </div>
-// </div>
-
-// <div className="Rental-section flex-col items-start ">
-// <h1 className='text-xl ml-4 lg:ml-0 2xl:text-3xl font-medium mb-4 flex'>Featured Rental</h1>
-// <div className=' sale-wrapper mb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center md:gap-5 gap-10 justify-items-center '>
-// {cardata.map(({ pix, id, price, state, str, city, bed, bath, size,purpose }) => (
-//    <PropertyCard key={id} pix={pix} id={id} price={price} state={state} str={str} city={city} bed={bed} bath={bath} size={size} purpose={purpose} />
-//    ))}
-// </div>
-// </div>
-
-// </div>

@@ -4,8 +4,6 @@ import { ChevronUpIcon } from '@heroicons/react/24/outline';
 import { FunnelIcon } from '@heroicons/react/24/outline';
 
 
-
-
 function Filter() {
     const [togglehousing, setTogglehousing] = useState(false)
     const [toggleprice, setToggleprice] = useState(false)
@@ -14,9 +12,6 @@ function Filter() {
     const housing = ["Apartment", "Building", "Summery", "Mansion", "Waterside", "Villa"]
     const pricing = ["500$ - 900$", "1000$ - 2000$", "2500$ - 300$", "3500$ - 4000$", "500+"]
     const sorting = ["Increasing Price", "Descending Price", "Most Current First", "Most Oldest First", "By Address (A-Z)"]
-
-
-
 
     function CloseOnOutsideClick(ref) {
         useEffect(() => {
@@ -35,7 +30,6 @@ function Filter() {
             };
         }, [ref]);
     }
-
 
     function ToggleHouse() {
         setTogglehousing(prev => !prev)

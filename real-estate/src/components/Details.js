@@ -4,28 +4,20 @@ import { IoLocationSharp } from 'react-icons/io5'
 import DetailsCarousal from './DetailsCarousal';
 import GenInfo from './GenInfo';
 import Agent_Card from './Agent_Card';
-import HeroSliders from './PropertyLists';
+import PropertyLists from './PropertyLists';
 
 function Details() {
   const { id } = useParams()
   window.scroll(0, 0);
 
-  // const test = HeroSliders.filter((item) => item.id == id).map(({id,str,state})=>())
-
-  //console.log(test)
-  //console.log(id)
-
-
-
-
 
   return (
 
     <div className='mt-20 lg:mt-32 pt-10 pb-12 container min-h-screen'>
-
-      {HeroSliders.filter((item) => item.id == id).map(({ id, str, state, city, price }) => (
-        <div key={id} className="details-wrapper flex justify-between">
-          <div className="left w-[100%] lg:w-[68%] x2l:w-[72%]">
+      {/* fetch and display details about each property from the premade properties list in PropertyLists.js */}
+      {PropertyLists.filter((item) => item.id == id).map(({ id, str, state, city, price }) => (
+        <div key={id} className="details-wrapper flex flex-col lg:flex-row justify-between">
+          <div className="left w-[100%] lg:w-[62%] xl:w-[68%] 2xl:w-[72%]">
             <div className="top flex items-end justify-between  w-[100%]">
               <div className="text flex flex-col items-start  ">
                 <h1 className='text-lg lg:text-3xl mb-2'>
@@ -50,7 +42,7 @@ function Details() {
               <GenInfo />
             </div>
           </div>
-          <div className="right hidden  mt-[80px] lg:flex">
+          <div className="right   mt-[80px] flex">
             <Agent_Card />
           </div>
 

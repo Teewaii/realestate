@@ -18,7 +18,8 @@ function All_Rent() {
       </div>
 
       {/* <Cards_Wrapper /> */}
-
+     {/* Container holding all the properties available for rent retured after query  */}
+   
       <div className='cards-wrapper mt-8  container pb-14 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 md:gap-5 gap-10 justify-items-center '>
         <PropertyCard />
 

@@ -24,13 +24,16 @@ function Agent_Card() {
   }, [id])
 
   return (
-    <div className='bg-white rounded-sm h-[400px] w-[320px] flex 
+    <div className='bg-white rounded-sm h-[400px] w-[100%] lg:w-[320px] flex 
     justify-center py-6 shadow-sm'>
 
       <div className="agent-wrapper flex flex-col items-center ">
+        {/* //fetching and filtering agents data from an array of a premade data from Head_shots.js */}
         {Head_shots.filter((shot) => shot.id == id).map(({ id, shot }) => (
           <img key={id} src={shot} alt="aagent-pix" className='rounded-full  w-[120px] 2xl:w-[130px] mb-4 border-gray-300 border-2' />
         ))}
+
+        {/* fetching random dummy data from jsonplaceholder APi for agent name,id and website address */}
         {agent.filter((item) => item.id == id).map(({ name, id, website, phone }) => (
 
           <div key={id} className="agent-details flex flex-col justify-center">
